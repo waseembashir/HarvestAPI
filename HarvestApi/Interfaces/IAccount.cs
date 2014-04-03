@@ -11,5 +11,7 @@ namespace HarvestApi
     {
         string GetEncodedCredentials(string username, string password);
         string GetHavestPath(string path);
+        string request(string path, string method, System.Collections.Hashtable vars = null, string postData = null);
+
     }
 }
